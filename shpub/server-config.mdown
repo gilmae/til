@@ -1,0 +1,4 @@
+# Server Config
+Configured servers are kept in ~/.config/shpub.ini
+
+Cached endpoints are in .cache/shpub
