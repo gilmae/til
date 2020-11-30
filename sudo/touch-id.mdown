@@ -1,0 +1,8 @@
+# Enable Touch Id for usod authentication
+
+via https://sixcolors.com/post/2020/11/quick-tip-enable-touch-id-for-sudo/
+
+Open /etc/pam.d/sudo in a text editor
+Add on the second line `auth sufficient pam_tid.so`
+
+Close and that's it
