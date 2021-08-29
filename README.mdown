@@ -2,4 +2,6 @@
 
 A collection of information snippets for things I have learned about whatever I am using. Because all too often I learn it and then forget it.
 
+There's a file, TOLEARN.mdown of the things I need to learn one day
+
 Inspired by https://github.com/jbranchaud/til, and really that should be the first TIL entry 
