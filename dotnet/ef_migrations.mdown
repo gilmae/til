@@ -1,0 +1,9 @@
+## Keeping DbContext in a seperate project
+`dotnet ef migrations add <migration name> --project <project with the migrations and DbContext> --startup-project <startup project>`  
+
+
+## Create script file
+
+`dotnet ef migrations script --output <script_name> --idempotent --project <startup project>`
+
+The startup project should be where `AddDbContext` has been called with a connection string
